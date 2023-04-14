@@ -1,0 +1,14 @@
+.first-hero{
+    background-color: rebeccapurple;
+}
+
+.first-hero h1,
+.first-hero h2
+{
+    color: white;
+}
+
+.section-selector-1
+{
+    background-color: lightgray;
+}

@@ -1,35 +1,151 @@
 <!DOCTYPE html>
+<!-- saved from url=(0039)https://lunevedy.com/starter/index.html -->
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex">
-    <title>Kelyan Bouras | Home Page</title>
-    <meta name="description" content="Welcome to my website that showcases some of my digital creations.">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8FC8NPR35R"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+    <title>Sample Web Page Title</title>
+    <meta name="description" content="Sample web page description goes here.">
 
-        gtag('config', 'G-8FC8NPR35R');
-    </script>
+    <!-- Preload large image -->
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./index_files/lunevedy.min.css">
+    <link rel="stylesheet" href="exercises/assets/css/perso.css">
+
+    <!-- Google Fonts -->
+
+    <!-- Font Awesome 6 icons. Delete if not using. -->
+    <link rel="stylesheet" href="./index_files/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Line Awesome thin icons. Delete if not using. -->
+    <link rel="stylesheet" href="./index_files/line-awesome.min.css">
+
 </head>
 
+
 <body>
-    <h1>Welcome</h1>
-    <h2>Kelyan Bouras</h2>
 
-    <h3>Sample Web Pages</h3>
+    <!-- menu and 'hero block' header -->
 
-    <p><a href="exercises/page-1.html">A Tale of Two Cities</a></p>
-    <p><a href="exercises/page-2.html">A Web page with sections</a></p>
-    <p><a href="exercises/page-4.html">A Web page with box</a></p>
-    <p><a href="exercises/page-5.html">A Web page from an University or whatever</a></p>
-    <p><a href="exercises/page-6.html">Flexbox</a></p>
+    <nav class="theme-light menu-sticky">
+        <div class="container-menu menu-desktop">
+            <a href="#" class="brand">
+                <img src="https://lunevedy.com/ui/assets/img/website-logo-sample.png" alt="Sample website logo">
+            </a>
+
+            <div class="container-menu-links">
+
+                <div class="nav-toggle" id="nav-toggle-btn">
+                    <div class="bar-1"></div>
+                    <div class="bar-2"></div>
+                    <div class="bar-3"></div>
+                </div>
+
+                <ul class="links-wrapper" aria-label="menu" aria-expanded="false">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a class="btn btn-solid" id="btn-cta" href="#"><span>Contact me</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header starts here -->
+
+    <header class="theme-light cols-2-half text-center-mobile header-after-menu-sticky first-hero">
+
+        <div class="col-2 col-text hero">
+            <h1>Kelyan Bouras</h1>
+            <h2>What should I write here ?</h2>
+
+
+            <div class="container-btn">
+                <a href="#" class="btn btn-solid"><span>See more</span></a><a href="#"
+                    class="btn btn-outline"><span>Learn more</span></a>
+            </div>
+
+        </div>
+
+        <div class="col-2 col-visual">
+            <figure>
+                <img src="exercises/assets/img/pexels-pixabay-270360.jpg" alt="Placeholder image">
+            </figure>
+        </div>
+
+    </header>
+
+
+    <!-- header ends here -->
+
+
+    <!-- main content with sections -->
+    <main>
+
+        <!-- replace these empty sections with your own or delete them. -->
+        
+
+	<!-- section starts here -->
+
+	<section class="theme-light section-selector-1">
+
+		<div class="col-1 text-center w-820px">
+			<h2>Look</h2>
+            <h2>Im a Web Developer and these are my project</h2>
+		</div>
+
+		<!-- Begin three-column flexbox grid -->
+		<div class="flex-cols-3">
+
+			<div class="col-3">
+				<figure>
+					<img src="exercises/assets/img/project-hero.png" alt="Placeholder image">
+				</figure>
+				<h3>I did that</h3>
+				<p>that's a website.</p>
+			</div>
+
+			<div class="col-3">
+				<figure>
+					<img src="exercises/assets/img/project-multi-col.png" alt="Placeholder image">
+				</figure>
+				<h3>I did that too</h3>
+				<p>this one too</p>
+			</div>
+
+			<div class="col-3">
+				<figure>
+					<img src="exercises/assets/img/project-smoothie.jpg" alt="Placeholder image">
+				</figure>
+				<h3>And that</h3>
+				<p>It's great ,isn't it?</p>
+			</div>
+
+
+		</div>
+		<!-- End three-column flexbox grid -->
+
+	</section>
+
+	<!-- section ends here -->
+
+
+        <section>
+            <div class="col-1 text-center w-820px">
+                <h2>Here's a <a href="./portfolio/js/index.html">JavaScript Project</a>.<h2>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="./index_files/lunevedy.js.téléchargement"></script>
+
+
 </body>
 
 </html>
